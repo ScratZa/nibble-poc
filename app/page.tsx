@@ -16,7 +16,7 @@ export default function Home() {
       <div className="flex items-center justify-center h-screen ">
         <div className="text-center">
           <h1 className="mb-5 text-4xl">Welcome to Nibble</h1>
-          <p className="mb-5">We know there isn't much here right now but we're coming soon!</p>
+          <p className="mb-5">We know there isn&apos;t much here right now but we&apos;re coming soon!</p>
           <form className="mb-5 mx-auto" onSubmit={handleSubmit}>
             <label htmlFor="email" className="block mb-2">If you would like to be notified when we go live, please leave your email below:</label>
             <input type="email" id="email" name="email" className="block px-3 py-2 border rounded-md mx-auto text-center" required 
